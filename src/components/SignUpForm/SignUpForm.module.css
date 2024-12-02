@@ -1,0 +1,132 @@
+.form-field__label {
+    font-size: 14px;
+}
+
+.rootInput {
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.input {
+    padding: 12px 12px;
+    background: #403f3f;
+    border: 1px solid #605f5f;
+    border-radius: 8px;
+    transition: all 200ms ease-in-out;
+    outline: none;
+    width: 100%;
+}
+
+.input::placeholder {
+    color: #858585;
+}
+
+.input:hover {
+    border: 1px solid #939292;
+}
+
+.input:focus {
+    border: 1px solid #939292;
+}
+
+.input-focused {
+    outline: 2px solid #939292;
+}
+
+.label {
+    font-size: 14px;
+    display: block;
+}
+
+.select {
+    display: block;
+    padding: 12px 12px;
+    background: #403f3f;
+    border: 1px solid #605f5f;
+    width: 100%;
+    text-align: start;
+    border-radius: 8px;
+    transition: all 200ms ease-in-out;
+}
+
+.select:hover {
+    border: 1px solid #939292;
+}
+
+.selectExpanded {
+    border: 1px solid #939292;
+}
+
+.selectEmptyValue {
+    color: #858585;
+}
+
+.popup {
+    padding: 8px 8px;
+    background: #403f3f;
+    max-height: 200px;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.listbox {
+    list-style: none;
+    width: 100%;
+}
+
+.option {
+    font-size: 14px;
+    padding: 4px 4px;
+    border-radius: 8px;
+}
+
+.option:hover {
+    background: #4a4a4a;
+    box-sizing: border-box;
+}
+
+.optionSelected {
+    background: #575757;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heading {
+    margin-bottom: 12px;
+}
+
+.submitButton {
+    padding: 12px 4px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: var(--default-transition);
+    background: #605f5f;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.submitButton:disabled {
+    opacity: 50;
+    cursor: not-allowed;
+}
+
+.submitButton:enabled:hover {
+    background: #7e7d7d;
+}
+
+.error {
+    color: #d64343;
+    font-size: 14px;
+}
+
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
